@@ -36,9 +36,9 @@ class App extends Component {
       clearInterval(this.interval);
 
       let audioSrc = (window.location.pathname+window.location.search).substr(1);
-      audioSrc = audioSrc.substring(audioSrc.indexOf('/')+1);
-      this.audio.src = audioSrc;
-      console.log(audioSrc);
+      // console.log(audioSrc.split("src/").pop());
+      this.audio.src = audioSrc.split("src/").pop();
+      // console.log(audioSrc.split("src").pop());
 
       this.audio.play();
       this.interval = setInterval(() => {
