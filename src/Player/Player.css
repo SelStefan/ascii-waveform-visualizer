@@ -1,0 +1,45 @@
+.Player {
+    padding-top: 1%;
+    text-align: center;
+}
+
+.menu {
+	/* background: #aaa; */
+	display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.menu > .menu {
+	flex-grow: 1;
+	width: 33%;
+}
+.menu > .menu:nth-child(even) {
+    /* border: solid 1px black; */
+    width: 15%;
+	/* background: #23a; */
+}
+.menu > .menu:nth-child(odd) {
+    /* border: solid 1px black; */
+	/* background: #49b; */
+}
+
+.input-icon-wrap {
+  border: 1px solid #ddd;    
+  display: flex;
+  flex-direction: row;
+}
+
+.input-icon {
+  text-align: center;
+  vertical-align: middle;
+  background: #ddd;
+}
+
+.input-with-icon {
+  border: none;
+  flex: 1;
+}
+
+.input-icon, .input-with-icon {
+  padding: 10px;
+}

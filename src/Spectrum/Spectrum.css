@@ -1,0 +1,8 @@
+.Spectrum {
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    /* background-color: green; */
+    white-space: nowrap;
+    /* font-size: 10px; */
+}
