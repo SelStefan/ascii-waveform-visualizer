@@ -9,10 +9,12 @@ For this project you will need
 - [**git**](https://git-scm.com/) 
 - [**node**](https://nodejs.org/) with **npm**
 
+
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Todo](#todo)
 
 ## Installation
 
@@ -34,5 +36,10 @@ For example you can copy one of the audio address from http://dir.xiph.org/index
 Now, after your navigate to the new url with the audio adress set, you can press the play button to watch the pretty ascii visualizations. :)
 
 ##### Build
-
 Run ```npm run build``` to build the project. The static build artifacts will be stored in the build/ directory.
+
+## Todo
+* Optimize the ascii drawing algorithm
+* Make the audio source selection more user friendly
+* Add UI for ascii waveform manipulation
+
