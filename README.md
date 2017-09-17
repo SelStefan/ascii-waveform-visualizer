@@ -1,7 +1,7 @@
-# Radio Ascii
+# Ascii Waveform Visualizer
 
 An ascii audio waveform visualizer made in React.
-<h3><a href="https://selstefan.github.io/radio-ascii/src/http://asirta.com:8000/stream.ogg">Demo</a></h3>
+<h3><a href="https://selstefan.github.io/ascii-waveform-visualizer/src/http://asirta.com:8000/stream.ogg">Demo</a></h3>
 
 # Requirements
 
@@ -19,8 +19,8 @@ For this project you will need
 ## Installation
 
 ```sh
-git clone https://github.com/SelStefan/radio-ascii.git
-cd radio-ascii
+git clone https://github.com/SelStefan/ascii-waveform-visualizer.git
+cd ascii-waveform-visualizer
 npm install
 ```
 
