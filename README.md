@@ -1,7 +1,7 @@
 # Radio Ascii
 
 An ascii audio waveform visualizer made in React.
-<h3><a href="https://selstefan.github.io/radio-ascii/src/http://secure.live-streams.nl/opus.opus">Demo</a></h3>
+<h3><a href="https://selstefan.github.io/radio-ascii/src/http://asirta.com:8000/stream.ogg">Demo</a></h3>
 
 # Requirements
 
@@ -32,7 +32,7 @@ Run ```npm start``` in the base project folder for a dev server. Navigate to htt
 ##### Giving a path to an audio source
 If you have started the development server and pushed the large play ► button, and no music started coming out, don't panic, the case is probably that you just didn't set a path to an audio source in the url.
 To set an audio source path, in the adress bar of your browser append ```/src/<your audio address>``` and press enter to navigate to the new url.
-For example you can copy one of the audio address from http://dir.xiph.org/index.php and append it after ```src/``` in you your url: http://localhost:3000/src/http://secure.live-streams.nl/opus.opus
+For example you can copy one of the audio address from http://dir.xiph.org/index.php and append it after ```src/``` in you your url: http://localhost:3000/src/http://asirta.com:8000/stream.ogg
 Now, after your navigate to the new url with the audio adress set, you can press the play button to watch the ascii waveform visualizations.
 
 ##### Build
